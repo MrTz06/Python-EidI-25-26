@@ -1,4 +1,5 @@
-# Gruppenmitglieder der Abgabegruppe 51: Moritz Glaser, Jordan Bank, Daniel Bosman
+# Gruppenmitglieder der Abgabegruppe 51:
+# Moritz Glaser(uk109727), Jordan Bank(uk110417), Daniel Bosman(uk107607)
 
 grundgehalt=100000
 bonus=2000

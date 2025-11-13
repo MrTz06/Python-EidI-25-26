@@ -1,7 +1,14 @@
+# Gruppenmitglieder der Abgabegruppe 51:
+# Moritz Glaser(uk109727), Jordan Bank(uk110417), Daniel Bosman(uk107607)
 import random
 
 def zufallsstring(A, laenge):
-    return ""
+    rueckgabe = ""
+    ziellaenge = random.choice(range(0, laenge + 1))
+    for i in range(ziellaenge):
+        rueckgabe += random.choice(A)
+
+    return rueckgabe
 
 
 def wort_bzgl_laenge(n, A, l):
@@ -22,7 +29,8 @@ def wort(n, A):
 
 
 def alphpos(a, A):
-    return 0
+    pos_a=A.find(a)
+    return pos_a
 
 
 def lexpos(s, A):

@@ -62,6 +62,7 @@ def suche_z_linear(alphabet):
         else :
            n+=1
 """
+"""
 def suche_z_binaer(alphabet, laenge):
     links = 0
     groesstes_wort = alphabet[-1]*laenge
@@ -77,3 +78,4 @@ def suche_z_binaer(alphabet, laenge):
             return kandidat
 
     return "Fehler in der Schleife"
+"""

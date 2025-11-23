@@ -8,8 +8,9 @@ def lottoziehung(anzahl,maximum):
         zahl = random.choice(zahlenbereich)
         if zahl not in ziehung:
             ziehung.append(zahl)
-    zusatzzahl = random.choice([z for z in zahlenbereich])
-    return ziehung, zusatzzahl
+    zusatzzahl = random.choice(zahlenbereich)
+    return tuple(ziehung), zusatzzahl
+
 
 
 

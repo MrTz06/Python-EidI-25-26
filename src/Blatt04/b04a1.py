@@ -2,11 +2,11 @@
 # Moritz Glaser(uk109727), Jordan Bank(uk110417), Daniel Bosman(uk107607)
 
 def durchschnitt(L):
-    result = []
+    ergebnis = []
     for name, notenliste in L:
         notendurchschnitt = sum(notenliste) / len(notenliste) if notenliste else 0.0
-        result.append((name, notendurchschnitt))
-    return result
+        ergebnis.append((name, notendurchschnitt))
+    return ergebnis
 
 #L=[("Agathe", [2.3, 1.7, 1.3]), ("Ben", [3.0, 2.7]),
 #   ("Clara", [1.0, 1.3, 1.0, 1.3])]

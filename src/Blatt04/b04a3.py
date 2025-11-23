@@ -6,7 +6,7 @@ def parse_daten(s):
     eintraege = s.split(';')
     for eintrag in eintraege:
         name, note = eintrag.split(',')
-        ergebnis.append((name, float(note)))
+        ergebnis.append(tuple((name, float(note))))
     return ergebnis
 
 #Test

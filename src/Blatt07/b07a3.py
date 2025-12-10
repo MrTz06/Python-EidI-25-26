@@ -1,3 +1,7 @@
+# Gruppenmitglieder der Abgabegruppe 51:
+# Moritz Glaser(36401905), Jordan Bank(36359741), Daniel Bosman(36360019)
+
+
 def pyramide(n):
     ## Hilfsfunktion: fügt der Pyramide links und rechts eins Spalte von Leerzeichen hinzu
     def pyramide_padded(pyramide):

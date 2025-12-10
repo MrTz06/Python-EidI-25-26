@@ -69,8 +69,8 @@ def median(datenbank):
     tail_median = berechne_median(tail_mittelwerte)
     mane_median = berechne_median(mane_mittelwerte)
 
-    print("Tail: "+ tail_median)
-    print("Mane: " + mane_median)
+    print("Tail: "+ str(tail_median))
+    print("Mane: " + str(mane_median))
     return None
 
 
